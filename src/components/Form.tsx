@@ -57,27 +57,27 @@ export default function Form() {
             name="lastname"
             placeholder="Nom"
             required
-            className="w-full h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 font-semibold text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500"
+            className="w-full h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 font-semibold text-gray-800 placeholder-gray-500 focus:outline-none focus:border-coral"
           />
           <input
             type="text"
             name="firstname"
             placeholder="Prénom"
             required
-            className="w-full h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 font-semibold text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500"
+            className="w-full h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 font-semibold text-gray-800 placeholder-gray-500 focus:outline-none focus:border-coral"
           />
           <input
             type="email"
             name="email"
             required
             placeholder="Adresse E-mail"
-            className="w-full h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 font-semibold text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500"
+            className="w-full h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 font-semibold text-gray-800 placeholder-gray-500 focus:outline-none focus:border-coral"
           />
           <textarea
             name="message"
             placeholder="Votre message..."
             rows={4}
-            className="w-full rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 py-2 font-semibold text-gray-800 placeholder-gray-500 resize-none focus:outline-none focus:border-blue-500"
+            className="w-full rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 py-2 font-semibold text-gray-800 placeholder-gray-500 resize-none focus:outline-none focus:border-coral"
           />
           <button
             type="submit"
