@@ -1,7 +1,6 @@
 import { FiGithub } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 
-
 export default function Form() {
   return (
     <div className="bg-mint flex flex-col p-10 min-h-screen">
@@ -18,24 +17,29 @@ export default function Form() {
             className="w-64 h-64 object-cover"
           />
 
-
-      <p className="font-semibold text-center md:w-100 ">Si mon profil vous intéresse et que vous souhaitez avoir plus de renseignements sur mon parcours et mes réalisations, vous pouvez me contacter via LinkedIn, Github, ou encore par le formulaire ci-joint</p>
+          <p className="font-semibold text-center md:w-100 ">
+            Si mon profil vous intéresse et que vous souhaitez avoir plus de
+            renseignements sur mon parcours et mes réalisations, vous pouvez me
+            contacter via LinkedIn, Github, ou encore par le formulaire ci-joint
+          </p>
           <div className="flex gap-5 justify-center pt-6">
-            <a href="https://github.com/aucherm"
+            <a
+              href="https://github.com/aucherm"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-0.75 active:translate-y-0.75 active:shadow-none">
-            <FiGithub className="w-5 h-5 text-black" />
+              className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-0.75 active:translate-y-0.75 active:shadow-none hover:bg-beige"
+            >
+              <FiGithub className="w-5 h-5 text-black" />
             </a>
-            
-             
-            <a href="https://www.linkedin.com/in/maëlle-aucher-502646137/"
+
+            <a
+              href="https://www.linkedin.com/in/maëlle-aucher-502646137/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-0.75 active:translate-y-0.75 active:shadow-none">
-           <FaLinkedinIn className="w-5 h-5 text-black" />
+              className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-0.75 active:translate-y-0.75 active:shadow-none hover:bg-beige"
+            >
+              <FaLinkedinIn className="w-5 h-5 text-black" />
             </a>
-           
           </div>
         </div>
         <form
@@ -77,7 +81,7 @@ export default function Form() {
           />
           <button
             type="submit"
-            className="mt-6 mx-auto w-32 h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] font-semibold text-gray-800 active:translate-x-0.75 active:translate-y-0.75 active:shadow-none"
+            className="mt-6 mx-auto w-32 h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] font-semibold text-gray-800 active:translate-x-0.75 active:translate-y-0.75 active:shadow-none hover:bg-beige hover:cursor-pointer"
           >
             Envoyer →
           </button>
