@@ -5,7 +5,7 @@ import About from "../components/About";
 
 export default function Myself() {
   return (
-    <>
+    <main className="bg-white">
       <NavBar />
       
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 p-6 max-w-7xl mx-auto">
@@ -65,6 +65,6 @@ export default function Myself() {
         </div>
       </div>
       
-    </>
+    </main>
   );
 }
