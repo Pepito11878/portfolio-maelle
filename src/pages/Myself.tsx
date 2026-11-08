@@ -2,13 +2,11 @@ import NavBar from "../components/NavBar";
 import Picture from "../components/Picture";
 import Cards from "../components/Cards";
 import About from "../components/About";
-import BottomNav from "../components/BottomNavBar";
 
 export default function Myself() {
   return (
     <>
       <NavBar />
-      <BottomNav />
       
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 p-6 max-w-7xl mx-auto">
       
