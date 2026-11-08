@@ -30,21 +30,17 @@ const link = [
 export default function NavBar() {
   return (
     <nav className="hidden md:block">
-      <div className="flex justify-between items-center w-full p-6 font-audiowide">
-        <div></div>
-        <div className=" flex-1 flex justify-center space-x-4 font-bold text-xl">
-          {link.map((key) => (
-            <Link
-              className="flex items-center hover:text-green"
-              key={key.label}
-              to={key.link}
-            >
-              {key.icon}
-              {key.label}
-            </Link>
-          ))}
-        </div>
-        <div></div>
+      <div className="flex justify-center items-center w-full font-audiowide font-bold text-xl">
+        {link.map((key) => (
+          <Link
+            className="flex items-center duration-150 px-5 py-4 border-b-4 border-transparent hover:border-green hover:bg-green/40 "
+            key={key.label}
+            to={key.link}
+          >
+            {key.icon}
+            {key.label}
+          </Link>
+        ))}
       </div>
     </nav>
   );
