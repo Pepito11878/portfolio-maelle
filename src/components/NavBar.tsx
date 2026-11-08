@@ -30,7 +30,7 @@ const link = [
 export default function NavBar() {
   return (
     <nav className="hidden md:block">
-      <div className="flex justify-center items-center w-full font-audiowide font-bold text-xl">
+      <div className="flex justify-center items-center bg-[#fff] w-full font-audiowide font-bold text-xl">
         {link.map((key) => (
           <NavLink
             className={({ isActive }) =>
